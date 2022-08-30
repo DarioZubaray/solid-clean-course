@@ -40,6 +40,13 @@ ___Ward Cunningham___
 ___Robert C. Martin___
 
 
+`"El buen código parece estar escrito por alguien a quien le importa."`
+___Michael Feathers___
+
+
+`"No comentes el código mal escrito, reescríbelo."`
+___Brian W. Kernighan___
+
 # Principio de diseño de software
 
 ### DRY (Seco)
