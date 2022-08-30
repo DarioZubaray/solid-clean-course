@@ -25,3 +25,6 @@ _Grady Booch_
 
 `"Programar es el arte de decirle a otro humanao lo que la quieres que la computadora haga."`
 _Donald knuth_
+
+`"Sabemos que estamos desarrollando código limpio cuando cada función hace exactamente lo que su nombre indica."`
+Ward Cunningham_
