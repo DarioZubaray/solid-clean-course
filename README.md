@@ -52,3 +52,8 @@ ___Brian W. Kernighan___
 ### DRY (Seco)
 
 El principio ***No te repitas*** (en inglés ___Don't Repeat Yourself___ o ***DRY***, también conocido como ***Una vez y sólo una***) es una filosofía de definición de procesos que promueve la reducción de la duplicación especialmente en computación. Según este principio toda "pieza de información" nunca debería ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y evolución posterior, puede perjudicar la claridad y crear un espacio para posibles inconsistencias.
+
+### STUPID
+
+<img src='./imgs/stupid.png'>
+
