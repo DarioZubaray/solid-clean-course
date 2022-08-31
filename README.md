@@ -47,6 +47,10 @@ ___Michael Feathers___
 `"No comentes el código mal escrito, reescríbelo."`
 ___Brian W. Kernighan___
 
+
+`"Queremos diseñar componentes que sean autocontenidos, auto suficientes e independientes. Con un objetivo y un propósito bien definido."`
+___The Pragmatic Programmer___
+
 # Principio de diseño de software
 
 ### DRY (Seco)
@@ -55,5 +59,5 @@ El principio ***No te repitas*** (en inglés ___Don't Repeat Yourself___ o ***DR
 
 ### STUPID
 
-<img src='./imgs/stupid.png'>
+<img src='imgs/stupid.png'>
 

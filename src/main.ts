@@ -2,7 +2,9 @@ import './style.css'
 // import './clean-code/04-homework'
 // import './clean-code/05-dry'
 // import './clean-code/06-classes-d'
-import './clean-code/07-tarea-b'
+// import './clean-code/07-tarea-b'
+// import './ccode-smells/02-high-coupling'
+import './ccode-smells/02-low-coupling'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
