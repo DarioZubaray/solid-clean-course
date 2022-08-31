@@ -57,7 +57,22 @@ ___The Pragmatic Programmer___
 
 El principio ***No te repitas*** (en inglés ___Don't Repeat Yourself___ o ***DRY***, también conocido como ***Una vez y sólo una***) es una filosofía de definición de procesos que promueve la reducción de la duplicación especialmente en computación. Según este principio toda "pieza de información" nunca debería ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y evolución posterior, puede perjudicar la claridad y crear un espacio para posibles inconsistencias.
 
-### STUPID
+### STUPID 
 
 <img src='imgs/stupid.png'>
 
+### Olores honorificos
+
+ - Inflación: métodos con más de 10 líneas -> segmentar en varios métodos más pequeños.
+    Clases con muchas funciones, misma solución.
+ - Obsesión primitiva: gran cantidad de primitivos -> usar un objeto
+ - Lista larga de parámetros: +3/4 de argumentos en un métodos -> comprobar que los valores son reqqueridos
+ - Acopladores:
+   - feature envy: llama a más información de otra clase más que a sus mismos datos.
+   - intimidad inapropiada: clase usa campos internos de otra clase
+   - cadena de mensajes: función A, que llama a B, que llama C y asi sucesívamente. -> que A llama directamente a Z
+   - The middle man: clase realiza una sola acción y delega el resultado a otra
+
+
+
+___fuente___ [refactoring.guru](https://refactoring.guru)
