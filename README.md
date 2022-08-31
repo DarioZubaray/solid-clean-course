@@ -76,3 +76,21 @@ El principio ***No te repitas*** (en inglés ___Don't Repeat Yourself___ o ***DR
 
 
 ___fuente___ [refactoring.guru](https://refactoring.guru)
+
+
+# SOLID (Sólido)
+
+Los __5 principios S.O.L.I.D.__ de diseño de software son:
+
+
+
+S – Single Responsibility Principle (SRP)
+
+O – Open/Closed Principle           (OCP)
+
+L – Liskov Substitution Principle   (LSP)
+
+I – Interface Segregation Principle (ISP)
+
+D – Dependency Inversion Principle  (DIP)
+
