@@ -83,8 +83,18 @@ ___fuente___ [refactoring.guru](https://refactoring.guru)
 Los __5 principios S.O.L.I.D.__ de diseño de software son:
 
 
+<img src="imgs/solid.png">
+
 
 S – Single Responsibility Principle (SRP)
+
+
+`"Nunca debería haber más de un motivo por el cual cambiar una clase o módulo."`
+___Robert C. Martin___
+
+```
+"tener una única responsabilidad" !== "hacer una única cosa"
+```
 
 O – Open/Closed Principle           (OCP)
 
