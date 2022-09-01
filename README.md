@@ -95,6 +95,12 @@ ___Robert C. Martin___
 ```
 "tener una única responsabilidad" !== "hacer una única cosa"
 ```
+##### Detectar Violaciones
+ - Nombres de clases y módulos demasiado genéricos.
+ - Cambios en el código suelen afectar la clase o módulo.
+ - La clase involucra múltiples capas.
+ - Número elevado de importaciones.
+ - Cantidad elevada de métodos públicos.
 
 O – Open/Closed Principle           (OCP)
 
