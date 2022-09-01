@@ -125,3 +125,12 @@ ___Robert C. Martin___
 
 D – Dependency Inversion Principle  (DIP)
 
+
+```
+"Los módulos de alto nivel NO deben de depender de módulos de bajo nivel.
+
+Ambos deben depender de abstraciones. Las abstracciones no deben de depender de concreciones.
+
+Los detalles deben depender de abstracciones."
+Robert C. Martin
+```
