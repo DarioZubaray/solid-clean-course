@@ -104,6 +104,8 @@ ___Robert C. Martin___
 
 O – Open/Closed Principle           (OCP)
 
+___Estable que las entidades de software(clases, módulos, métodos, etc) deben estar abiertas para la extensión, pero cerradas para la modificación.__
+
 L – Liskov Substitution Principle   (LSP)
 
 I – Interface Segregation Principle (ISP)
