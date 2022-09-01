@@ -33,3 +33,12 @@ export class Honda {
         return this.numberOfSeats;
     }
 }
+
+export class Volvo {
+
+    constructor( private numberOfSeats: number ) {}
+
+    getNumberOfVolvoSeats() {
+        return this.numberOfSeats;
+    }
+}
