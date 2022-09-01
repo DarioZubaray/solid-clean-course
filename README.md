@@ -106,6 +106,10 @@ O – Open/Closed Principle           (OCP)
 
 ___Estable que las entidades de software(clases, módulos, métodos, etc) deben estar abiertas para la extensión, pero cerradas para la modificación.__
 
+##### Detectar Violaciones
+ - Cambios normalmente afectan nuestra clase o módulo.
+ - Cuando una clase o módulo afecta muchas capas. (Presentación, almacenamiento, etc).
+
 L – Liskov Substitution Principle   (LSP)
 
 I – Interface Segregation Principle (ISP)
