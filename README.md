@@ -112,6 +112,11 @@ ___Estable que las entidades de software(clases, módulos, métodos, etc) deben 
 
 L – Liskov Substitution Principle   (LSP)
 
+
+
+`"Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo."`
+___Robert C. Martin___
+
 I – Interface Segregation Principle (ISP)
 
 D – Dependency Inversion Principle  (DIP)
