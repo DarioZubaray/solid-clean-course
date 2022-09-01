@@ -117,6 +117,8 @@ ___Robert C. Martin___
 
 I – Interface Segregation Principle (ISP)
 
+##### Detectar Violaciones
+ - Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad y sustitución de liskov.
 
 `"Los clientes no deben estar obligados a depender de interfaces que no usan."`
 ___Robert C. Martin___

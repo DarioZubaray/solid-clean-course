@@ -1,46 +1,37 @@
 (()=> {
     interface Bird {
-        fly(): void;
         eat(): void;
+    }
+    
+    interface FlyingBird {
+        fly(): number;
+    }
+    
+    interface RunningBird {
         run(): void;
+    }
+
+    interface SwimmerBird {
         swim(): void;
     }
 
-    class Tucan implements Bird {
-        public fly(){}
+    class Tucan implements Bird, FlyingBird {
         public eat(){}
-        public run(){}
-        public swim() {
-            throw new Error('Can not swim');
-        }
+        public fly(){ return 10; }
     }
 
-    class Humminbird implements Bird {
-        public fly(){}
+    class Humminbird implements Bird, FlyingBird {
         public eat(){}
-        public run(){}
-        public swim() {
-            throw new Error('Can not swim');
-        }
+        public fly(){ return 30; }
     }
 
-    class Ostrich implements Bird {
-        public fly() {
-            throw new Error('Can not fly');
-        }
+    class Ostrich implements Bird, RunningBird {
         public eat(){}
         public run(){}
-        public swim() {
-            throw new Error('Can not swim');
-        }
     }
-    
-    class Penguin implements Bird {
-        public fly() {
-            throw new Error('Can not fly');
-        }
+
+    class Penguin implements Bird, SwimmerBird {
         public eat(){}
-        public run(){}
         public swim(){}
     }
 
